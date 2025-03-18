@@ -1,0 +1,81 @@
+/* General Styling */
+body {
+    background-color: #f3e5f5; /* Light purple background */
+    color: #4a148c; /* Deep purple text */
+    font-family: Arial, sans-serif;
+}
+
+/* Resume Container */
+.resume-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(74, 20, 140, 0.2);
+}
+
+/* Header */
+.resume-header {
+    background-color: #7b1fa2; /* Medium purple */
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+}
+
+.header-content h1 {
+    color: #ffffff;
+}
+
+.tagline {
+    color: #d1c4e9; /* Light purple */
+}
+
+/* Biography Section */
+.biography-list {
+    padding-left: 0;
+}
+
+.biography-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #b39ddb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Logos */
+.biography-logo {
+    max-width: 80px;
+    height: auto;
+}
+
+/* Contact Section */
+.contact-list {
+    padding-left: 0;
+}
+
+.contact-item {
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    width: 24px;
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #4a148c; /* Deep purple */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #d1c4e9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
